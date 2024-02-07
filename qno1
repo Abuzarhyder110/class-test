@@ -1,0 +1,9 @@
+num1 = int(input("Enter the first integre"))
+num2 = int(input("Enter the second integer"))
+
+if num1 % 2== 1 and num2 % ==1:
+Calculate the sum of their squares
+result = num1**2 + num2**2
+print(f"The sum of the squares od {num1} and {num2} is :{result} ")
+else: 
+    print("Calculation is not performed")
