@@ -1,0 +1,26 @@
+import random 
+
+def guess_the_number
+     Generate a random number between 1 and 100
+    num = rand(1, 100)
+
+    max_attempts = 5
+
+    for attempts in range(1, max_attemps + 1):
+        # Get user input for the guess
+        user_guess = int(input("Guess the number (between 1 and 100): "))
+
+
+        if user_guess == secret_number:
+            print("Congratulations! You guessed the number.")
+            break
+        elif user_guess < secret_number:
+            print("Too low. Try again.")
+        else: 
+            print("Too high. Try again.")
+
+    else:
+        print(f"Game over! You ran out of guesses. The correct number was {secret_number}.")
+
+# Run the game 
+guess_the_number()
